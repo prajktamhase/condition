@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb</title>
+</head>
+
+<body>
+  <img src="./of fan.png" id="bulb" height="400px" /><br /><br /><br /><br />
+  <button type="button" onclick="btn1()">Button1</button>
+  <button type="button" onclick="btn2()">Button2</button>
+
+   <script>
+    function  btn1(){
+    const fanElement=document.getElementById('bulb')
+    fanElement.src="./of fan.png";
+   }
+
+
+
+   function btn2(){
+    const fanElement=document.getElementById('bulb')
+    fanElement.src="./fan-copy.gif";
+
+   }
+   
+  </script>
+  
+
+</body>
+
+</html>
+
+
+
+<!-- const bulbElement = document.getElementById = ("bulb");
+let state = true;
+function tooglebulb() {
+  if (state==true) {
+    bulbElement.src ="./fan-copy.gif";
+    state = true;
+
+  }
+
+  else {
+    bulbElement.src ="./of fan.png";
+    state = false;
+  } -->
